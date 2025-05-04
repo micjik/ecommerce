@@ -129,6 +129,11 @@ const updateProduct = async(req,res)=> {
                 })
             }else {
                 products = await Product.find().sort({createdAt:-1})
+
+                res.status(201).json({
+                    success: true,
+                    message:"all product fetched successfully"
+                })
             }
 
         }catch(error){

@@ -18,13 +18,13 @@ const orderSchema = mongoose.Schema({
         required: true
     },
     address: {
-        type: string
+        type: String
     },
     phone: {
-        type: string
+        type: String
     },
     email: {
-        type: string
+        type: String
     },
     status: {
         type: Number,
