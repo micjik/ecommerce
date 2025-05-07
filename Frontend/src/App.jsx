@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import Cart from './pages/Cart'
 import Myaccount from './pages/Myaccount'
 import Promotional from './components/Promotional'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 
 
@@ -41,6 +43,14 @@ const App = () => {
         {
           path:'/myaccount',
           element:<Myaccount/>
+        },
+        {
+          path:'/login',
+          element:<Login/>
+        },
+        {
+          path:'/register',
+          element:<Register/>
         }
       ]
     },

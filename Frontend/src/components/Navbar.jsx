@@ -27,11 +27,12 @@ const Navbar = () => {
            
         </div>
         </Link>
-        
+         <Link to='/login'>
         <div className="flex items-center border-[#1F4529] border-2 cursor-pointer">
           <span className="font-semibold">Login</span>
           <FaUser/>
         </div>
+        </Link>
 
       </div>
     </div>
